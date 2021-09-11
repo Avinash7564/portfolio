@@ -30,9 +30,9 @@ function Projects() {
               isBlog={false}
               title="Agoda Clone "
               description="Agoda is an online travel agency and metasearch engine for hotels, vacation rentals, flights, and airport transfer. It was founded in 2003 and later acquired by Booking Holdings, becoming a subsidiary of the company."
-              link="https://github.com/Subham-Abhishek/Agoda-Clone"
+              link="https://github.com/Avinash7564/Agoda-Clone"
               linkmedium=""
-              linklive=""
+              linklive="http://Agoda.netlify.app"
             />
           </Col>
 
@@ -42,7 +42,7 @@ function Projects() {
               isBlog={false}
               title="Indiegogo Clone"
               description="Indiegogo is a website which offers two types of functionalities Donation and Fund-Raising. If anyone have any creative idea then he/she can fill a form and get a donation from any users if anyone likes their ideas. "
-              link="https://github.com/hello-snsa/indiegogo-clone"
+              link="https://github.com/Avinash7564/indiegogo-clone"
               linkmedium=""
               linklive=""
             />
