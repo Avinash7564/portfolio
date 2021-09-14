@@ -63,7 +63,6 @@ function Resume() {
                 "Jigyasa is a NGO that provides free education to poor childrens in Haldia city. ",
               ]}
             />
-            
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
