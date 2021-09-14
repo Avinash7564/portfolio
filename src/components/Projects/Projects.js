@@ -56,7 +56,7 @@ function Projects() {
               description="A cloned web application of bluemercury.com, a US-based website that sells cosmetics products and provides a wide range of products to choose from"
               link="https://github.com/Avinash7564/bluemercurry_clone"
               linkmedium="https://avinashrexx.hashnode.dev/bluemercury-website-cloning"
-              linklive="bluemercurryclone.netlify.app"
+              linklive="https://bluemercurryclone.netlify.app"
             />
           </Col>
         </Row>
