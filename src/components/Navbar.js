@@ -42,7 +42,7 @@ function NavBar() {
         <Navbar.Brand href="/">
           <div>
             <img
-              src="https://e7.pngegg.com/pngimages/416/657/png-clipart-computer-icons-mechanic-e-procurement-maintenance-management-a-letter-miscellaneous-blue.png"
+              src="https://dt2sdf0db8zob.cloudfront.net/wp-content/uploads/2019/12/9-Best-Letter-Logos-and-How-to-Make-Your-Own-for-Free-image3.png"
               alt=""
               style={{ height: "40px", borderRadius: "10px" }}
             />
