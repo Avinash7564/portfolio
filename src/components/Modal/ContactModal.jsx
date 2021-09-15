@@ -114,7 +114,7 @@ export default function TransitionsModal() {
                 />
                 <br /> <br />
                 <Button type="submit" style={{ width: "60%" }}>
-                  SUBMIT
+                  SEND
                 </Button>
               </div>
             </div>
