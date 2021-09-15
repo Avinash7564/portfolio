@@ -43,8 +43,8 @@ function Projects() {
               title="Indiegogo Clone"
               description="Indiegogo is a website which offers two types of functionalities Donation and Fund-Raising. If anyone have any creative idea then he/she can fill a form and get a donation from any users if anyone likes their ideas. "
               link="https://github.com/Avinash7564/indiegogo-clone"
-              linkmedium=""
-              linklive=""
+              linkmedium="https://avinashrexx.hashnode.dev/indiegogo-clone"
+              linklive="https://indiegogo-clone.netlify.app"
             />
           </Col>
 
