@@ -32,7 +32,7 @@ function Projects() {
               description="Agoda is an online travel agency and metasearch engine for hotels, vacation rentals, flights, and airport transfer. It was founded in 2003 and later acquired by Booking Holdings, becoming a subsidiary of the company."
               link="https://github.com/Avinash7564/Agoda-Clone"
               linkmedium="https://avinashrexx.hashnode.dev/cloning-of-agoda-website"
-              linklive="http://Agoda.netlify.app"
+              linklive="https://agoda.netlify.app/"
             />
           </Col>
 
