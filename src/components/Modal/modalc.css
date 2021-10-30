@@ -1,23 +1,23 @@
-.input-nilp {
+.input-avi {
   width: 60%;
   height: 40px;
   margin-top: 20px;
   border: 1px solid gray;
 }
-.input-nilp:focus {
+.input-avi:focus {
   width: 60%;
   height: 40px;
   outline: none;
   border: 1px solid gray;
 }
 
-.input-nilp2 {
+.input-avi2 {
   width: 60%;
   height: 80px;
   margin-top: 20px;
   border: 1px solid gray;
 }
-.input-nilp2:focus {
+.input-avi2:focus {
   width: 60%;
   height: 80px;
   outline: none;

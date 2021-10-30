@@ -8,7 +8,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaLinkedinIn } from "react-icons/fa";
 import TransitionsModal from "../Modal/ContactModal.jsx";
-import avatarImg from "../../Assets/avatar.jpeg"
+import avatarImg from "../../Assets/avatar.jpeg";
 function Home2() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
@@ -35,9 +35,6 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
               </i>
               <br />
               <br />
@@ -62,11 +59,7 @@ function Home2() {
             style={{ marginTop: "-32px" }}
           >
             <Tilt>
-              <img
-                src={avatarImg}
-                className="img-fluid"
-                alt="avatar"
-              />
+              <img src={avatarImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
@@ -87,16 +80,7 @@ function Home2() {
                   <AiFillGithub />
                 </a>
               </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
+
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/avinash-kumar-20a359211/"

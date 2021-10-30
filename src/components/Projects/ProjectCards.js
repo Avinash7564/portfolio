@@ -9,7 +9,15 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <br />
-      <Card.Title><a href={props.linklive} target="_blank" style={{color:"whitesmoke"}}>{props.title}</a></Card.Title>
+      <Card.Title>
+        <a
+          href={props.linklive}
+          target="_blank"
+          style={{ color: "whitesmoke" }}
+        >
+          {props.title}
+        </a>
+      </Card.Title>
       <Card.Img
         src={props.imgPath}
         alt="card-img"
@@ -21,7 +29,6 @@ function ProjectCards(props) {
         </Card.Text>
 
         <Col md={12} className="home-about-social">
-          <h1></h1>
           <p>
             Find<span className="purple"> More </span>below
           </p>
@@ -58,24 +65,6 @@ function ProjectCards(props) {
             </li>
           </ul>
         </Col>
-        {/* <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
-        </Button>
-        <br />
-        <Button variant="primary" href={props.link} target="_blank">
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
-        </Button>
-        <Button
-          variant="primary"
-          href={props.link}
-          target="_blank"
-          style={{ marginLeft: "20px" }}
-        >
-          <BiLinkExternal /> &nbsp;
-          {props.isBlog ? "View Blog" : "View Project"}
-        </Button> */}
       </Card.Body>
     </Card>
   );

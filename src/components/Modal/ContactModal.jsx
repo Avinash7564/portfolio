@@ -94,7 +94,7 @@ export default function TransitionsModal() {
                 <input
                   type="text"
                   placeholder="Write Your Name"
-                  className="input-nilp"
+                  className="input-avi"
                   required
                 />
                 <input
@@ -102,14 +102,14 @@ export default function TransitionsModal() {
                   type="email"
                   name="email"
                   placeholder="Write Your Email"
-                  className="input-nilp"
+                  className="input-avi"
                   required
                 />
                 <textarea
                   id="message"
                   placeholder="Write here..."
                   name="message"
-                  className="input-nilp2"
+                  className="input-avi2"
                   required
                 />
                 <br /> <br />

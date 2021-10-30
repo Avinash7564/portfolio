@@ -4,25 +4,10 @@ import Button from "react-bootstrap/Button";
 import axios from "axios";
 
 function Like() {
-  const uri = "https://porfolio-backend.vercel.app/likes/getLikes";
-  const postUri = "https://porfolio-backend.vercel.app/likes/updateLikes";
-
   const [numLike, updateLike] = useState(0);
   const [likeCounter, upadteCounter] = useState(0);
   const [btnState, upadteBtn] = useState(true);
   const [likeClass, updateClass] = useState("far fa-heart");
-
-  useEffect(() => {
-    axios
-      .get(uri)
-      .then((res) => {
-        updateLike(res.data.data);
-        upadteBtn(false);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
-  }, []);
 
   function clickHandler() {
     updateClass("far fa-heart animate-like");
@@ -32,15 +17,6 @@ function Like() {
     if (likeCounter > 3) {
       upadteBtn(true);
     }
-
-    axios
-      .post(postUri)
-      .then((res) => {
-        console.log(res.data.status);
-      })
-      .catch((err) => {
-        console.log(err);
-      });
 
     setTimeout(() => {
       updateClass("far fa-heart");
