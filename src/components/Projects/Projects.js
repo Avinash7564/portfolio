@@ -59,6 +59,18 @@ function Projects() {
               linklive="https://bluemercurryclone.netlify.app"
             />
           </Col>
+
+          <Col md={5} className="project-card" data-aos="fade-down">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Pinterset Clone"
+              description="A cloned web application of pinterest.com,Pinterest is an image sharing and social media service designed to enable saving and discovery of information on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pin-boards."
+              link="https://github.com/Avinash7564/Pinterest-clone"
+              linkmedium="https://avinashrexx.hashnode.dev/bluemercury-website-cloning"
+              linklive="https://pinshow.netlify.app"
+            />
+          </Col>
         </Row>
       </Container>
     </Container>

@@ -81,16 +81,6 @@ function Resume() {
               date="2012 - 2013"
               content={["Precentage: 9.8 CGPA"]}
             />
-            {/* <h3 className="resume-title">Ranks and Achivements</h3> */}
-            {/* <Resumecontent
-              title=""
-              content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
-              ]}
-            /> */}
           </Col>
         </Row>
         <Row
