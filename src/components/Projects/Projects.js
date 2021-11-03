@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/Indegogo.PNG";
 import editor from "../../Assets/Projects/Bluemercurry.PNG";
 import chatify from "../../Assets/Projects/Agoda.PNG";
+import pinterest from "../../Assets/Projects/Capture.PNG";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Projects() {
@@ -62,7 +63,7 @@ function Projects() {
 
           <Col md={5} className="project-card" data-aos="fade-down">
             <ProjectCard
-              imgPath={editor}
+              imgPath={pinterest}
               isBlog={false}
               title="Pinterset Clone"
               description="A cloned web application of pinterest.com,Pinterest is an image sharing and social media service designed to enable saving and discovery of information on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pin-boards."
