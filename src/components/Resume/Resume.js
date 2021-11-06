@@ -33,7 +33,7 @@ function Resume() {
               title="EOCL , Haldia, West Bengal"
               date="June 2020"
               content={[
-                "Worked on processing fieldwork for various projects which comprise layout marking, Structural checking, on-site work overview.",
+                "I had worked on processing fieldwork for various projects which comprise layout marking, Structural checking, on-site work overview.",
               ]}
             />
             <h3 className="resume-title">Voluntary Experience</h3>
