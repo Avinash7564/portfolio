@@ -6,7 +6,7 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/Indegogo.PNG";
 import editor from "../../Assets/Projects/Bluemercurry.PNG";
 import chatify from "../../Assets/Projects/Agoda.PNG";
-import pinterest from "../../Assets/Projects/Capture.PNG";
+import pinterest from "../../Assets/Projects/pinterest.PNG";
 import Aos from "aos";
 import "aos/dist/aos.css";
 function Projects() {
@@ -30,7 +30,7 @@ function Projects() {
               imgPath={chatify}
               isBlog={false}
               title="Agoda Clone "
-              description="Agoda is an online travel agency and metasearch engine for hotels, vacation rentals, flights, and airport transfer. It was founded in 2003 and later acquired by Booking Holdings, becoming a subsidiary of the company."
+              description="Agoda is an online travel agency and metasearch engine for hotels, vacation rentals, flights, and airport transfers. It was founded in 2003 and later acquired by Booking Holdings, becoming a subsidiary of the company."
               link="https://github.com/Avinash7564/Agoda-Clone"
               linkmedium="https://avinashrexx.hashnode.dev/cloning-of-agoda-website"
               linklive="https://agoda.netlify.app/"
@@ -42,7 +42,7 @@ function Projects() {
               imgPath={pinterest}
               isBlog={false}
               title="Pinterset Clone"
-              description="A cloned web application of pinterest.com,Pinterest is an image sharing and social media service designed to enable saving and discovery of information on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pin-boards."
+              description="A cloned web application of pinterest.com, Pinterest is an image sharing and social media service designed to enable saving and discovery of information on the internet using images and, on a smaller scale, animated GIFs and videos, in the form of pin-boards."
               link="https://github.com/Avinash7564/Pinterest-clone"
               linkmedium="https://avinashrexx.hashnode.dev/bluemercury-website-cloning"
               linklive="https://pinshow.netlify.app"
@@ -54,7 +54,7 @@ function Projects() {
               imgPath={leaf}
               isBlog={false}
               title="Indiegogo Clone"
-              description="Indiegogo is a website which offers two types of functionalities Donation and Fund-Raising. If anyone have any creative idea then he/she can fill a form and get a donation from any users if anyone likes their ideas. "
+              description="Indiegogo is an American crowdfunding website founded in 2008 by Danae Ringelmann, Slava Rubin, and Eric Schell. Its headquarters are in San Francisco, California. The site is one of the first sites to offer to crowdfund. Indiegogo allows people to solicit funds for an idea, charity, or start-up business."
               link="https://github.com/Avinash7564/indiegogo-clone"
               linkmedium="https://avinashrexx.hashnode.dev/indiegogo-clone"
               linklive="https://indiegogo-clone.netlify.app"
@@ -66,7 +66,7 @@ function Projects() {
               imgPath={editor}
               isBlog={false}
               title="Bluemercurry Clone"
-              description="A cloned web application of bluemercury.com, a US-based website that sells cosmetics products and provides a wide range of products to choose from"
+              description="A cloned web application of bluemercury.com, a US-based website that sells cosmetics products and provides a wide range of products to choose from."
               link="https://github.com/Avinash7564/bluemercurry_clone"
               linkmedium="https://avinashrexx.hashnode.dev/bluemercury-website-cloning"
               linklive="https://bluemercurryclone.netlify.app"
