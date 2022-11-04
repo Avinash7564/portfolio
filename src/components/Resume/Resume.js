@@ -1,9 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
-import axios from "axios";
 import pdf from "../../Assets/Avinash_Kumar_Resume_10-11-2021-19-41-03.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import Aos from "aos";
@@ -28,12 +27,12 @@ function Resume() {
         </Row>
         <Row className="resume" data-aos="fade-up">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Training</h3>
+            <h3 className="resume-title">Professional Experience</h3>
             <Resumecontent
-              title="EOCL , Haldia, West Bengal"
-              date="June 2020"
+              title="Tracxn, Bengaluru"
+              date="June 2021 - Present"
               content={[
-                "I had worked on processing fieldwork for various projects which comprise layout marking, Structural checking, on-site work overview.",
+                "Role as a Software Developer with a Team and building applications for mobile and web using React Js, Node, and MongoDB.",
               ]}
             />
             <h3 className="resume-title">Voluntary Experience</h3>

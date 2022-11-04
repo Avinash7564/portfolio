@@ -1,14 +1,12 @@
 import React, { useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
-
+import { AiFillGithub } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { FaLinkedinIn } from "react-icons/fa";
-import TransitionsModal from "../Modal/ContactModal.jsx";
 import avatarImg from "../../Assets/avatar.jpeg";
+
 function Home2() {
   useEffect(() => {
     Aos.init({ duration: 1200 });
@@ -104,7 +102,6 @@ function Home2() {
               </p>
             </h3>
             <br /> <br />
-            <TransitionsModal />
           </Col>
         </Row>
       </Container>
