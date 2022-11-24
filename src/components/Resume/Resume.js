@@ -30,7 +30,7 @@ function Resume() {
             <h3 className="resume-title">Professional Experience</h3>
             <Resumecontent
               title="Tracxn, Bengaluru"
-              date="June 2021 - Present"
+              date="November 2021 - Present"
               content={[
                 "Role as a Software Developer with a Team and building applications for mobile and web using React Js, Node, and MongoDB.",
               ]}
